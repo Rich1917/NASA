@@ -1,0 +1,133 @@
+body {
+	background: #0F2027;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	font-family: 'Bebas Neue', cursive;
+
+}
+
+.top-menu {
+	text-align: center; 
+	overflow: hidden;
+	background-color:rgba(219, 227, 244, 0.2);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.top-menu a {
+	text-decoration: none;
+	color: #D7DBDD ;
+	padding-left: 10px; 
+	padding-right: 10px;
+	font-size: 24px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.top-menu a:hover {
+	color: blue;
+}
+
+.intro {
+	width: 99%;
+	height: 650px;
+	background: url(img/tdih-jul29-hd.jpg) no-repeat center top / cover;
+	margin-top: 50px; 
+	background-attachment: fixed;
+}
+
+.h2 {
+	font-size: 70px;
+	text-align: center;
+	color: #0D89A3;
+}
+
+.but {
+	background: transparent;
+	color: transparent;
+	width: 200px;
+	height: 50px;
+	font-size: 25px;
+	border: 0;
+
+}
+
+.but:hover {
+	color: #000000 ;
+}
+
+.new {
+	font-family: 'Space Mono', monospace;
+	color: #CECFD8  ;
+}
+
+span {
+	font-size: 30px;
+	color: #EFEFF0 ;
+}
+
+.big {
+	font-size: 60px;
+	color: #9F7414;
+	text-align: center;
+}
+
+.el {
+	font-family: 'Electrolize', sans-serif;
+}
+
+.norm {
+	height: 250px;
+	width: 380px;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.yout {
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+iframe {
+	-webkit-box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+
+}
+
+.a2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.li {
+	text-decoration: none;
+	color: white;
+}
+
+.h1 {
+	font-size: 70px;
+	text-align: center;
+	color: #E5F5FA;
+
+}
+
+.intro-history {
+	width: 99%;
+	height: 650px;
+	background: url(img/astronaut-standing-beside-american-flag-on-the-moon-39896.jpg) no-repeat center top / cover;
+	margin-top: 50px; 
+	background-attachment: fixed;
+}
